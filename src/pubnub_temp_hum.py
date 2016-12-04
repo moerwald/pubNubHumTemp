@@ -64,7 +64,7 @@ while True:
    pubnub.publish(channel=channelName,  message=room.__dict__)
    print ("Send message to pubnub")
    print (room.__dict__)
-   time.sleep(3)
+   time.sleep(300)
    if stopScript:
       break
 
